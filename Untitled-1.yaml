@@ -1,0 +1,7 @@
+echo "a pethouse" ? README.md
+git initTradução
+git adicionar README.md
+git commit -m "primeiro commit"
+git branch - M main
+git remote add origin https://github.com/annakarol-dev/pethouse.git
+git push -u origem principal

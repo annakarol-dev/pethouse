@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #0e2741;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+.nav-link {
+    font-size: 1.2em;
+}
+
+#cadastro, #agendamento {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+h2 {
+    color: #007bff;
+    margin-bottom: 30px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background: url('imagemcabecalho.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+/* Imagem de Destaque */
+section img {
+    width: 100%;
+    height: auto;
+}
+/* Imagens dos Produtos e Serviços */
+.produto-imagem {
+    max-width: 100%;  /* A imagem não será maior que o contêiner */
+    height: auto;     /* Mantém a proporção da imagem */
+    max-height: 200px; /* Define uma altura máxima */
+    object-fit: cover; /* Ajusta a imagem para caber no espaço definido, se necessário */
+}
